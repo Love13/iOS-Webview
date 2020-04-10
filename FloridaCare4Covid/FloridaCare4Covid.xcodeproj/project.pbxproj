@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4487A5243278BF005F8509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4487A4243278BF005F8509 /* AppDelegate.swift */; };
+		3A4487A7243278BF005F8509 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4487A6243278BF005F8509 /* SceneDelegate.swift */; };
+		3A4487A9243278BF005F8509 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4487A8243278BF005F8509 /* ContentView.swift */; };
+		3A4487AB243278C0005F8509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4487AA243278C0005F8509 /* Assets.xcassets */; };
+		3A4487AE243278C0005F8509 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4487AD243278C0005F8509 /* Preview Assets.xcassets */; };
+		3A4487B1243278C0005F8509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4487AF243278C0005F8509 /* LaunchScreen.storyboard */; };
+		3A4487BC243278C1005F8509 /* FloridaCare4CovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4487BB243278C1005F8509 /* FloridaCare4CovidTests.swift */; };
+		3A4487C7243278C1005F8509 /* FloridaCare4CovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4487C6243278C1005F8509 /* FloridaCare4CovidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A4487B8243278C1005F8509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A448799243278BF005F8509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4487A0243278BF005F8509;
+			remoteInfo = FloridaCare4Covid;
+		};
+		3A4487C3243278C1005F8509 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A448799243278BF005F8509 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4487A0243278BF005F8509;
+			remoteInfo = FloridaCare4Covid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A4487A1243278BF005F8509 /* FloridaCare4Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloridaCare4Covid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4487A4243278BF005F8509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A4487A6243278BF005F8509 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A4487A8243278BF005F8509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A4487AA243278C0005F8509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A4487AD243278C0005F8509 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A4487B0243278C0005F8509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A4487B2243278C0005F8509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4487B7243278C1005F8509 /* FloridaCare4CovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloridaCare4CovidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4487BB243278C1005F8509 /* FloridaCare4CovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloridaCare4CovidTests.swift; sourceTree = "<group>"; };
+		3A4487BD243278C1005F8509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4487C2243278C1005F8509 /* FloridaCare4CovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloridaCare4CovidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4487C6243278C1005F8509 /* FloridaCare4CovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloridaCare4CovidUITests.swift; sourceTree = "<group>"; };
+		3A4487C8243278C1005F8509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A44879E243278BF005F8509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487B4243278C1005F8509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487BF243278C1005F8509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A448798243278BF005F8509 = {
+			isa = PBXGroup;
+			children = (
+				3A4487A3243278BF005F8509 /* FloridaCare4Covid */,
+				3A4487BA243278C1005F8509 /* FloridaCare4CovidTests */,
+				3A4487C5243278C1005F8509 /* FloridaCare4CovidUITests */,
+				3A4487A2243278BF005F8509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A4487A2243278BF005F8509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A4487A1243278BF005F8509 /* FloridaCare4Covid.app */,
+				3A4487B7243278C1005F8509 /* FloridaCare4CovidTests.xctest */,
+				3A4487C2243278C1005F8509 /* FloridaCare4CovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4487A3243278BF005F8509 /* FloridaCare4Covid */ = {
+			isa = PBXGroup;
+			children = (
+				3A4487A4243278BF005F8509 /* AppDelegate.swift */,
+				3A4487A6243278BF005F8509 /* SceneDelegate.swift */,
+				3A4487A8243278BF005F8509 /* ContentView.swift */,
+				3A4487AA243278C0005F8509 /* Assets.xcassets */,
+				3A4487AF243278C0005F8509 /* LaunchScreen.storyboard */,
+				3A4487B2243278C0005F8509 /* Info.plist */,
+				3A4487AC243278C0005F8509 /* Preview Content */,
+			);
+			path = FloridaCare4Covid;
+			sourceTree = "<group>";
+		};
+		3A4487AC243278C0005F8509 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A4487AD243278C0005F8509 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A4487BA243278C1005F8509 /* FloridaCare4CovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A4487BB243278C1005F8509 /* FloridaCare4CovidTests.swift */,
+				3A4487BD243278C1005F8509 /* Info.plist */,
+			);
+			path = FloridaCare4CovidTests;
+			sourceTree = "<group>";
+		};
+		3A4487C5243278C1005F8509 /* FloridaCare4CovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A4487C6243278C1005F8509 /* FloridaCare4CovidUITests.swift */,
+				3A4487C8243278C1005F8509 /* Info.plist */,
+			);
+			path = FloridaCare4CovidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A4487A0243278BF005F8509 /* FloridaCare4Covid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4487CB243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4Covid" */;
+			buildPhases = (
+				3A44879D243278BF005F8509 /* Sources */,
+				3A44879E243278BF005F8509 /* Frameworks */,
+				3A44879F243278BF005F8509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloridaCare4Covid;
+			productName = FloridaCare4Covid;
+			productReference = 3A4487A1243278BF005F8509 /* FloridaCare4Covid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A4487B6243278C1005F8509 /* FloridaCare4CovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4487CE243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4CovidTests" */;
+			buildPhases = (
+				3A4487B3243278C1005F8509 /* Sources */,
+				3A4487B4243278C1005F8509 /* Frameworks */,
+				3A4487B5243278C1005F8509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4487B9243278C1005F8509 /* PBXTargetDependency */,
+			);
+			name = FloridaCare4CovidTests;
+			productName = FloridaCare4CovidTests;
+			productReference = 3A4487B7243278C1005F8509 /* FloridaCare4CovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A4487C1243278C1005F8509 /* FloridaCare4CovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A4487D1243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4CovidUITests" */;
+			buildPhases = (
+				3A4487BE243278C1005F8509 /* Sources */,
+				3A4487BF243278C1005F8509 /* Frameworks */,
+				3A4487C0243278C1005F8509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A4487C4243278C1005F8509 /* PBXTargetDependency */,
+			);
+			name = FloridaCare4CovidUITests;
+			productName = FloridaCare4CovidUITests;
+			productReference = 3A4487C2243278C1005F8509 /* FloridaCare4CovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A448799243278BF005F8509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Coastal Cloud";
+				TargetAttributes = {
+					3A4487A0243278BF005F8509 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3A4487B6243278C1005F8509 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3A4487A0243278BF005F8509;
+					};
+					3A4487C1243278C1005F8509 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3A4487A0243278BF005F8509;
+					};
+				};
+			};
+			buildConfigurationList = 3A44879C243278BF005F8509 /* Build configuration list for PBXProject "FloridaCare4Covid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A448798243278BF005F8509;
+			productRefGroup = 3A4487A2243278BF005F8509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A4487A0243278BF005F8509 /* FloridaCare4Covid */,
+				3A4487B6243278C1005F8509 /* FloridaCare4CovidTests */,
+				3A4487C1243278C1005F8509 /* FloridaCare4CovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A44879F243278BF005F8509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4487B1243278C0005F8509 /* LaunchScreen.storyboard in Resources */,
+				3A4487AE243278C0005F8509 /* Preview Assets.xcassets in Resources */,
+				3A4487AB243278C0005F8509 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487B5243278C1005F8509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487C0243278C1005F8509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A44879D243278BF005F8509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4487A5243278BF005F8509 /* AppDelegate.swift in Sources */,
+				3A4487A7243278BF005F8509 /* SceneDelegate.swift in Sources */,
+				3A4487A9243278BF005F8509 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487B3243278C1005F8509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4487BC243278C1005F8509 /* FloridaCare4CovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4487BE243278C1005F8509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4487C7243278C1005F8509 /* FloridaCare4CovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A4487B9243278C1005F8509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4487A0243278BF005F8509 /* FloridaCare4Covid */;
+			targetProxy = 3A4487B8243278C1005F8509 /* PBXContainerItemProxy */;
+		};
+		3A4487C4243278C1005F8509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A4487A0243278BF005F8509 /* FloridaCare4Covid */;
+			targetProxy = 3A4487C3243278C1005F8509 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A4487AF243278C0005F8509 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4487B0243278C0005F8509 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A4487C9243278C1005F8509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A4487CA243278C1005F8509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A4487CC243278C1005F8509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FloridaCare4Covid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FloridaCare4Covid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4Covid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A4487CD243278C1005F8509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FloridaCare4Covid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FloridaCare4Covid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4Covid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A4487CF243278C1005F8509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloridaCare4CovidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4CovidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloridaCare4Covid.app/FloridaCare4Covid";
+			};
+			name = Debug;
+		};
+		3A4487D0243278C1005F8509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloridaCare4CovidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4CovidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloridaCare4Covid.app/FloridaCare4Covid";
+			};
+			name = Release;
+		};
+		3A4487D2243278C1005F8509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloridaCare4CovidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4CovidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloridaCare4Covid;
+			};
+			name = Debug;
+		};
+		3A4487D3243278C1005F8509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloridaCare4CovidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoastalCloud.FloridaCare4CovidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloridaCare4Covid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A44879C243278BF005F8509 /* Build configuration list for PBXProject "FloridaCare4Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4487C9243278C1005F8509 /* Debug */,
+				3A4487CA243278C1005F8509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4487CB243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4Covid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4487CC243278C1005F8509 /* Debug */,
+				3A4487CD243278C1005F8509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4487CE243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4CovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4487CF243278C1005F8509 /* Debug */,
+				3A4487D0243278C1005F8509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A4487D1243278C1005F8509 /* Build configuration list for PBXNativeTarget "FloridaCare4CovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4487D2243278C1005F8509 /* Debug */,
+				3A4487D3243278C1005F8509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A448799243278BF005F8509 /* Project object */;
+}
